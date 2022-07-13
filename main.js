@@ -9,9 +9,9 @@ function movement(event)
 		snake.style.top = (topVal + 16) + "px";
 	if(pressed == 68 || pressed == 100) // numeros representando a letra (D && d)
 		snake.style.left = (leftVal + 16) + "px";
-	if(pressed == 141 || pressed == 101) // numeros representando a letra (A && a)
+	if(pressed == 64 || pressed == 97) // numeros representando a letra (A && a)
 		snake.style.left = (leftVal - 16) + "px";
-	if(pressed == 127 || pressed == 167) // numeros representando a letra (W && w)
+	if(pressed == 87 || pressed == 119) // numeros representando a letra (W && w)
 		snake.style.top = (topVal - 16) + "px";
 
 }
