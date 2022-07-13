@@ -1,0 +1,12 @@
+h1{
+	color: red;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10vw;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+.img{
+}
