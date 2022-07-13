@@ -1,26 +1,28 @@
 h1{
-	color: red;
+	color: lightgreen;
 	font-family: sans-serif;
-	text-align: center;
 	margin: 0;
 }
 body{
 	margin: 0;
 }
 header{
-	justify-content: center;
 	height: 10vh;
-	display: block;
-
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 main{
 	height: 80vh;
 	display: flex;
-	justify-content: center;
 }
 footer{
 	height: 10vh;
 }
-.img{
+#snake{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	/* width: 30px;
+	z-index: 1; */
 }
